@@ -1,105 +1,20 @@
-# 📄 Professional Resume Builder
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-> **Build your resume. Showcase your skills. Stand out from the crowd. 🚀**
+# Run and deploy your AI Studio app
 
-A modern and easy-to-use **web-based Resume Builder** designed to help students, developers, and job seekers create professional resumes quickly — without starting from scratch.
+This contains everything you need to run your app locally.
 
-✨ **Create → Customize → Preview → Get Resume Ready!**
+View your app in AI Studio: https://ai.studio/apps/95ec0b00-4d0d-4769-a855-7170aa746327
 
----
+## Run Locally
 
-## 🌟 Why This Project?
+**Prerequisites:**  Node.js
 
-Creating a professional resume can be time-consuming and confusing.
 
-**Professional Resume Builder** makes the process simple by providing an organized platform where you can add your information, highlight your skills, showcase your projects, and build a clean resume in one place.
-
-Whether you're preparing for your **first internship, placement, or your next career opportunity**, this project helps you present your profile professionally.
-
----
-
-## 🚀 Features
-
-* 👤 Add personal information
-* 🎓 Add education details
-* 💻 Showcase technical skills
-* 🚀 Add projects
-* 💼 Add work experience
-* 🏆 Add certifications
-* 👀 Preview your resume
-* 📱 Responsive and clean UI
-* ⚡ Simple and easy-to-use interface
-
----
-
-## 🛠️ Tech Stack
-
-| Technology    | Purpose                  |
-| ------------- | ------------------------ |
-| ⚛️ React.js   | Frontend                 |
-| 🔷 TypeScript | Type-safe development    |
-| 🌐 HTML       | Structure                |
-| 🎨 CSS        | Styling                  |
-| 🟢 Node.js    | Backend / Runtime        |
-| ⚡ Vite        | Development & Build Tool |
-
----
-
-## 📂 Project Structure
-
-```text
-professional-resume-builder/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── ...
-│
-├── public/
-├── server.ts
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
-### 5️⃣ Open in your browser
-
-Visit the local URL provided in your terminal.
-
----
-
-## 🎯 Project Goal
-
-The goal of this project is to make **resume creation simple, organized, and accessible**, especially for students and beginners who want to create a professional-looking resume without dealing with complicated tools.
-
----
-
-## 🔮 Future Improvements
-
-* 📄 Download resume as PDF
-* 🎨 Multiple resume templates
-* 🤖 AI-powered resume suggestions
-* 🖱️ Drag-and-drop sections
-* 🌙 Dark mode
-* 🎯 ATS-friendly resume optimization
-* 💾 Save and manage multiple resumes
-
----
-
-## 👥 Team
-
-**A collaborative project developed by our team**
-
-### 🤝 Team Members
-
-* **Hasan Mohamed Mahfooz SM** — Full-Stack Developer
-* **Mugesh M** — Backend Develop
-* **Niranjan C** — Frontend Developer
-
-> *"Great things are built together."* 🚀
-
----
-
-⭐ **If you like this project, consider giving it a star!**
-
-💡 **Feel free to explore, use, and improve the project.**
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

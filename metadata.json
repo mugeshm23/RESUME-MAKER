@@ -1,0 +1,6 @@
+{
+  "name": "Professional Resume Builder",
+  "description": "A step-by-step AI-assisted resume builder crafted for freshers and professionals with ATS-friendly templates, live preview, and PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
